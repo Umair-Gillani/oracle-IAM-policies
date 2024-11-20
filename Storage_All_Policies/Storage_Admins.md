@@ -1,3 +1,52 @@
+### Storage_Admins_Tested_Running_Policies :
+
+```plaintext
+Allow group 'Default'/'StorageAdmins' to use volumes in tenancy
+Allow group 'Default'/'StorageAdmins' to manage volume-backups in tenancy
+Allow group 'Default'/'StorageAdmins' to inspect volume-attachments in tenancy
+Allow group 'Default'/'StorageAdmins' to inspect instances in tenancy
+Allow group 'Default'/'StorageAdmins' to manage backup-policies in tenancy
+Allow group 'Default'/'StorageAdmins' to manage backup-policy-assignments in tenancy
+Allow group 'Default'/'StorageAdmins' to manage volume-family in tenancy
+Allow group 'Default'/'StorageAdmins' to use instance-family in tenancy
+Allow group 'Default'/'StorageAdmins' to manage volume-family in tenancy
+Allow group 'Default'/'StorageAdmins' to use instance-family in tenancy
+Allow group 'Default'/'StorageAdmins' to use volume-backups in tenancy where request.permission='VOLUME_BACKUP_COPY'
+Allow group 'Default'/'StorageAdmins' to use boot-volume-backups in tenancy where request.permission='BOOT_VOLUME_BACKUP_COPY'
+Allow group 'Default'/'StorageAdmins' to use volumes in tenancy
+Allow group 'Default'/'StorageAdmins' to manage boot-volume-backups in tenancy
+Allow group 'Default'/'StorageAdmins' to inspect instances in tenancy
+Allow group 'Default'/'StorageAdmins' to manage backup-policies in tenancy
+Allow group 'Default'/'StorageAdmins' to manage backup-policy-assignments in tenancy
+Allow group 'Default'/'StorageAdmins' to inspect volumes in tenancy
+Allow group 'Default'/'StorageAdmins' to manage volume-groups in tenancy
+Allow group 'Default'/'StorageAdmins' to inspect volumes in tenancy
+Allow group 'Default'/'StorageAdmins' to manage volume-groups in tenancy
+Allow group 'Default'/'StorageAdmins' to manage volumes in tenancy
+Allow group 'Default'/'StorageAdmins' to inspect volume-groups in tenancy
+Allow group 'Default'/'StorageAdmins' to manage volumes in tenancy
+Allow group 'Default'/'StorageAdmins' to manage volume-group-backups in tenancy
+Allow group 'Default'/'StorageAdmins' to manage volume-backups in tenancy
+Allow group 'Default'/'StorageAdmins' to inspect volume-group-backups in tenancy
+Allow group 'Default'/'StorageAdmins' to read volume-backups in tenancy
+Allow group 'Default'/'StorageAdmins' to manage volume-groups in tenancy
+Allow group 'Default'/'StorageAdmins' to manage volumes in tenancy
+Allow group 'Default'/'StorageAdmins' to manage file-family in tenancy
+Allow group 'Default'/'StorageAdmins' to manage file-systems in tenancy
+Allow group 'Default'/'StorageAdmins' to read mount-targets in tenancy
+Allow group 'Default'/'StorageAdmins' to manage buckets in tenancy
+Allow group 'Default'/'StorageAdmins' to manage objects in tenancy
+Allow group 'Default'/'StorageAdmins' to read buckets in tenancy
+Allow group 'Default'/'StorageAdmins' to manage objects in tenancy where any {request.permission='OBJECT_CREATE', request.permission='OBJECT_INSPECT'}
+Allow group 'Default'/'StorageAdmins' to read buckets in tenancy
+Allow group 'Default'/'StorageAdmins' to read objects in tenancy
+```
+
+
+
+
+---
+
 Below is the **filtered and cleaned-up list of policies** for the `StorageAdmins` group after removing duplicates and ensuring they align with **OCI industry standards** and **SAMA compliance**:
 
 ---
