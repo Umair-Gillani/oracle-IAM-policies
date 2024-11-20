@@ -9,7 +9,6 @@ Allow group 'Default'/'FinanceAdmins' to manage usage-budgets in tenancy
 Allow group 'Default'/'FinanceAdmins' to read usage-reports in tenancy
 Allow group 'Default'/'FinanceAdmins' to read audit-events in tenancy
 Allow group 'Default'/'FinanceAdmins' to inspect tag-namespaces in tenancy
-Allow group 'Default'/'FinanceAdmins' to read quotas in tenancy
 ```
 
 ---
@@ -48,7 +47,7 @@ Allow group 'Default'/'FinanceAdmins' to manage accountmanagement-family in tena
 #### Steps:
 1. Navigate to:
    ```
-   Governance & Administration > Cloud Advisor
+   Billing & Cost Management > Cost Management
    ```
 2. **Verify**:
    - Ensure you can:
@@ -124,22 +123,6 @@ Allow group 'Default'/'FinanceAdmins' to inspect tag-namespaces in tenancy
      - List all tag namespaces in the tenancy.
      - View details of each tag namespace.
 
----
-
-### **7. Quota Inspection**
-#### Policies to Verify:
-```plaintext
-Allow group 'Default'/'FinanceAdmins' to read quotas in tenancy
-```
-#### Steps:
-1. Navigate to:
-   ```
-   Governance & Administration > Limits, Quotas, and Usage
-   ```
-2. **Verify**:
-   - Ensure you can:
-     - View quotas for resources (e.g., compute, storage, and networking limits).
-     - Inspect usage against these quotas.
 
 ---
 
@@ -155,7 +138,7 @@ Allow group 'Default'/'FinanceAdmins' to manage usage-budgets in tenancy
 Allow group 'Default'/'FinanceAdmins' to read usage-reports in tenancy
 Allow group 'Default'/'FinanceAdmins' to read audit-events in tenancy
 Allow group 'Default'/'FinanceAdmins' to inspect tag-namespaces in tenancy
-Allow group 'Default'/'FinanceAdmins' to read quotas in tenancy
+
 ```
 
 ---
@@ -179,9 +162,6 @@ Allow group 'Default'/'FinanceAdmins' to read quotas in tenancy
 
 6. **Tag Namespaces**:
    - Confirm you can list and inspect tag namespaces.
-
-7. **Quotas**:
-   - Test viewing service quotas and usage under **Limits, Quotas, and Usage**.
 
 ---
 
