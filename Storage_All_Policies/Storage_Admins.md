@@ -93,16 +93,18 @@ Allow group 'Default'/'StorageAdmins' to read objects in tenancy
 ```
 
 --- 
-
-
-
+.
+.
+.
 ### *###############################################################################*
 
 ### *###############################################################################*
 
 ### *###############################################################################*
-
-
+.
+.
+.
+---
 
 
 To confirm that all the policies for the `StorageAdmins` group are working as intended, you can follow these **step-by-step tests** through the OCI Console. Each step includes the relevant policy, the actions to verify, and what you should expect.
