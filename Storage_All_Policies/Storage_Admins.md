@@ -92,72 +92,7 @@ Allow group 'Default'/'StorageAdmins' to read buckets in tenancy
 Allow group 'Default'/'StorageAdmins' to read objects in tenancy
 ```
 
----
-
-### **How to Verify These Policies**
-
-1. **Volumes and Backups**:
-   - Navigate to:
-     ```
-     Storage > Block Volumes
-     ```
-   - Confirm you can:
-     - Create, update, and delete volumes and backups.
-     - View volume and backup details.
-
-2. **File Storage**:
-   - Navigate to:
-     ```
-     Storage > File Storage
-     ```
-   - Confirm you can:
-     - Manage file systems and mount targets.
-
-3. **Object Storage**:
-   - Navigate to:
-     ```
-     Storage > Object Storage
-     ```
-   - Confirm you can:
-     - Create, update, and delete buckets and objects.
-     - View and download object details.
-
-4. **Instances and Attachments**:
-   - Navigate to:
-     ```
-     Compute > Instances
-     ```
-   - Confirm you can:
-     - Inspect instances.
-     - Inspect volume attachments.
-
-5. **Backup Policies**:
-   - Navigate to:
-     ```
-     Storage > Block Volumes > Backup Policies
-     ```
-   - Confirm you can:
-     - Create and assign backup policies.
-
-6. **Audit Logs** (if needed for compliance):
-   - Navigate to:
-     ```
-     Identity & Security > Audit
-     ```
-   - Confirm you can view storage-related audit events.
-
----
-
-### **SAMA Compliance Justification**
-These policies ensure:
-- **Operational control**: Full management of storage resources while restricting access to unnecessary areas.
-- **Data protection**: Permissions for managing backups and encryption policies.
-- **Governance**: Visibility into storage activities via audit logs and read-only permissions where appropriate.
-
-Let me know if you encounter issues or need further assistance!
-
-
-### ----
+--- ----
 
 
 
