@@ -14,7 +14,7 @@ Allow group 'NetworksAdmin' to inspect log-groups in tenancy
 --- 
 ##########################################################
 ---
-
+---
 
 To verify the **`NetworksAdmin` policies**, follow these **step-by-step tests** through the Oracle Cloud Infrastructure (OCI) console. Each step includes the relevant policy, the actions to verify, and what you should expect.
 
